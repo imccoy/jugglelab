@@ -1,0 +1,71 @@
+body {
+  background-color: #DE5E1A;
+  margin: 0;
+}
+
+#header {
+  background: url('logo.png') no-repeat 30px 17px;
+  /* image is 481x170 */
+  padding-left: 510px;
+  height: 190px;
+}
+
+#nav {
+  background-color: #DE5E1A;
+  margin: 15px 45px;
+  padding: 10px 0;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+
+ul#nav li {
+  list-style-type: none;
+  margin: 13px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #F4E5E1;
+  text-align: center;
+}
+
+#main {
+  width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 16px;
+  /* background-color: #F5D4CB;  */ /* 17% saturation */
+  background-color: #F4E5E1; /* 10% saturation */
+}
+
+#content {
+  padding: 32px;
+  color: #230d09; /* 14% brightness */
+}
+
+/* clearfix hack from http://www.webtoolkit.info/css-clearfix.html */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+ 
+.clearfix {
+  display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+  display: block;
+}
+ 
+* html .clearfix {
+  height: 1%;
+}
