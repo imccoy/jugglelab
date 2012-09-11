@@ -57,6 +57,7 @@ ul#nav li a:hover {
 #content {
   padding: 32px;
   color: #230d09; /* 14% brightness */
+  font-size: 16pt;
 }
 
 /* clearfix hack from http://www.webtoolkit.info/css-clearfix.html */
