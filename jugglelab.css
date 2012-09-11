@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+
 #header {
   background: url('logo.png') no-repeat 30px 17px;
   /* image is 481x170 */
@@ -33,6 +34,15 @@ ul#nav li {
   color: #F4E5E1;
   text-align: center;
 }
+ul#nav li a {
+  color: #F4E5E1;
+  text-decoration: none;
+}
+ul#nav li a:hover {
+  color: #F4E5E1;
+  text-decoration: underline;
+}
+
 
 #main {
   width: 960px;
@@ -42,6 +52,7 @@ ul#nav li {
   /* background-color: #F5D4CB;  */ /* 17% saturation */
   background-color: #F4E5E1; /* 10% saturation */
 }
+
 
 #content {
   padding: 32px;
