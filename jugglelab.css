@@ -49,8 +49,8 @@ ul#nav li a:hover {
   margin: 0 auto;
   bottom: 0;
   padding-top: 16px;
-  /* background-color: #F5D4CB;  */ /* 17% saturation */
-  background-color: #F4E5E1; /* 10% saturation */
+  /* background-color: #F4E5E1; */ /* 10% saturation */
+  background-color: white; /* because Liz says so */
 }
 
 
