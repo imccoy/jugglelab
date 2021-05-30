@@ -2,3 +2,5 @@ This is the website for Melbourne's JuggleLab juggling club.
 
 It is built with jekyll [https://github.com/mojombo/jekyll]. It is made out of
 love. And some markup.
+
+ruby 2.4.1, jekyll 2.5.2, `jekyll --build`
